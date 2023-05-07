@@ -1,11 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
+import Button from '@mui/material/Button';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+				<div>
+      		<Button variant="contained">Hello World</Button>
+    		</div>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
